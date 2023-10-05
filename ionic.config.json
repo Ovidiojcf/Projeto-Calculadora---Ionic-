@@ -1,0 +1,7 @@
+{
+  "name": "Calculadora-ojcf",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
