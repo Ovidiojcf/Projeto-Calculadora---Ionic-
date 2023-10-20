@@ -26,6 +26,14 @@ export class HomePage {
     this.zerar();
   }
 
+  porcentagem(){
+    this.valor1 = +this.visor;
+    this.visor = "" + (this.valor1 /100);
+  }
+  negativo(){
+    this.valor1 = +this.visor;
+    this.visor = "" + (this.valor1 * -1);
+  }
   calcular(){
     this.valor2 = +this.visor;
     switch(this.operacao){
